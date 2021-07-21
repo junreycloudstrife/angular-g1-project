@@ -10,8 +10,15 @@ export class AppComponent {
   title = 'This is my first Angular project';
   appMessage = "This is for input parameter";
 
+  appMessageArray = ['hi', 'hello', 'goodbye', 'go', 'stop', 'please'];
+
+  showComponent = true;
 
   appEvent(event){
     alert(event);
+  }
+
+  showHide() {
+    this.showComponent = !this.showComponent;
   }
 }
