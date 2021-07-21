@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-third',
@@ -7,9 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ThirdComponent implements OnInit {
 
+  @Output() thirdEvent = new EventEmitter();
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  clickEvent() {
+    this.thirdEvent.emit('new message');
+    // alert('test')
   }
 
 }

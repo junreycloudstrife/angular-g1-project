@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
     selector: 'app-fourth',
-    template: `<p>fourth component works</p?`,
+    template: `<p>fourth works!</p>`,
     styles:['p {color:green}']
 })
 

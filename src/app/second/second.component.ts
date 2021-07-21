@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
     selector: 'app-second',
-    template: `<p>SecondComponent works</p?`,
+    template: `<p>second works!</p>`,
     styles:['p {color:red}']
 })
 
