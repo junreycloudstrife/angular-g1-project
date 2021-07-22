@@ -1,13 +1,21 @@
-{{title}}
+<!-- {{title}} -->
 <!-- <app-first [firstMessage]="appMessage" ></app-first>
 <app-second></app-second>
 <app-third (thirdEvent)="appEvent($event)"></app-third>
 <app-fourth></app-fourth> -->
-<div *ngFor="let message of appMessageArray">
+
+<!-- <div *ngFor="let message of appMessageArray">
     <app-first [firstMessage]="message"></app-first>
 </div>
 <div *ngIf="showComponent">
     <app-second></app-second>
 </div>
-<button (click)="showHide()">Show</button>
+<button (click)="showHide()">Show</button> -->
+
+<h1>Device Details View</h1>
+
+<div *ngFor="let device of devices">
+    <app-device-details [deviceDetail]="device"></app-device-details>
+</div>
+
 <router-outlet></router-outlet>
