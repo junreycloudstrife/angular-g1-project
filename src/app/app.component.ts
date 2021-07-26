@@ -23,18 +23,17 @@ export class AppComponent {
   //   this.showComponent = !this.showComponent;
   // }
 
-  devices : Device []= [
-    {
-      name: "Device01",
-      brand: "Dell",
-      model: "Latitude 120"
-    },
-    {
-      name: "Device02",
-      brand: "HP",
-      model: "Pavillion"
-    }
-
-  ]
+  // devices : Device []= [
+  //   {
+  //     name: "Device01",
+  //     brand: "Dell",
+  //     model: "Latitude 120"
+  //   },
+  //   {
+  //     name: "Device02",
+  //     brand: "HP",
+  //     model: "Pavillion"
+  //   }
+  // ]
 
 }
